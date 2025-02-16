@@ -230,6 +230,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 103px;
 }
 
 .services__heading {
@@ -436,7 +437,6 @@ li {
   border-radius: 30px;
 }
 
-
 #form {
   background-color: #f3f3f3;
   padding: 150px 0;
@@ -478,21 +478,23 @@ form label {
   font-size: 16px;
 }
 
-form input, .form__btn {
+form input,
+.form__btn {
   height: 64px;
   width: 450px;
   padding: 19px 23px;
   border-radius: 10px;
   font-size: 16px;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
   margin: 10px 0 20px;
 }
 form input::placeholder {
-  color: #D0D0D0;
+  color: #d0d0d0;
 }
 
 .form__btn {
-  font-size: 20px;font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
   background-color: #6a4df4;
   color: white;
   cursor: pointer;
@@ -503,7 +505,7 @@ form input::placeholder {
   justify-content: center;
 }
 
-.form__btn:hover{
+.form__btn:hover {
   background-color: transparent;
   color: #6a4df4;
 }
@@ -519,9 +521,9 @@ form input::placeholder {
   margin-top: 30px;
 }
 
-
 .footer__info h3 {
-  font-weight: 500;font-size: 20px;
+  font-weight: 500;
+  font-size: 20px;
   margin-bottom: 40px;
 }
 
@@ -530,7 +532,6 @@ form input::placeholder {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
 }
 
 .footer__info ul li a {
